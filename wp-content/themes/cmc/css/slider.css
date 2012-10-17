@@ -1,0 +1,6 @@
+.slider.transition-left .slide-image { opacity: 1; left: -100%; }
+.slider.transition-left .slide-image.current { left: 0; }
+.slider.transition-left .slide-image.current ~ .slide-image { left: 100%; }
+
+/** theme **/
+.slider.theme-dark { background: black; color: white; a { color: white; } .caption { background: rgba(0,0,0,0.5); } .options a { color: #91BECC; &:hover { color: #D3E5EB; } } .slide-image { background: black; } .slide-pager a.current { background-color: #91BECC; color: black; } .loader .spinner { background: url(load_dark.gif) no-repeat; }}
